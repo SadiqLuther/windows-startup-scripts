@@ -93,4 +93,4 @@ Start-Process "c:/temp/vc_redist.x64.exe" /passive -wait
 Start-Process "c:/temp/mysql-workbench.msi" /passive -wait
 
 # To use this as a user data script, please use below command without # enclosed in <powershell></powershell>
-#iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/vpjaseem/windows-startup-scripts/master/5-ec2-win-bootstrap.ps1'))
+#iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/sadiqluther/windows-startup-scripts/master/5-ec2-win-bootstrap.ps1'))
